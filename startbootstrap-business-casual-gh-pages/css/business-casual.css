@@ -101,6 +101,7 @@ hr {
     margin: 0 auto 0;
 }
 
+
 footer {
     background: #fff;
     background: rgba(255,255,255,0.9);
@@ -132,6 +133,11 @@ footer p {
     .img-left {
         float: left;
         margin-right: 25px;
+    }
+    .img-centre {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .address-bar {
@@ -216,11 +222,4 @@ footer p {
        1px 1px 0 #000;
 }
 
-.social-media {
-    width:30px; 
-    height:30px; 
-    border:0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
+
