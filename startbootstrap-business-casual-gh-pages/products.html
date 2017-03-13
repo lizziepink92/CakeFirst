@@ -20,13 +20,12 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher|Roboto" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+     <style>
+           
+        </style>
+        
 
 </head>
 
@@ -35,7 +34,7 @@
     <div class="brand"><h1>CakeFirst</h1></div>
     <div class="address-bar">241 Bakery Place | London, Sw11 1JS | 0207 489 0012</div>
 
-    <!-- Navigation -->
+   <!-- Navigation -->
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -74,297 +73,179 @@
         <!-- /.container -->
     </nav>
 
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">
-                        <strong>Cupcakes</strong>
-                    </h2>
-                    <hr>
-                    <html>
-    <head>
-        <style>
-            .view-title {
-            font-size: 35px;
-            margin: 0.67em 0;
-            font-weight: 200;
-            text-align: center;
-            font-family: 'open sans';
-            }
-            .featured-links .col-4:last-of-type, .featured-links .col-4:first-of-type {
-            padding-left: 0;
-            padding-right: 0;
-            }
-            .featured-links .col-4 {
-            padding: 0;
-            }
-            .featured-links .link-box {
-            border: .5em white solid;
-            display: table;
-            height:  9em;
-            background-size: cover;
-            width: 33.33333%;
-            }
-            * {
-            margin: 0;
-            padding: 0;
-            font-family: 'Open Sans', sans-serif;
-            font-size: 14px;
-            }
-            *, *:before, *:after {
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            box-sizing: border-box;
-            }
-            h1 {
-            font-size: 35px;
-            line-height: 1.5em;
-            font-weight: 200;
-            color: #4a4a4a
-            font-family: 'open sans'; 
-            }
-            div {
-            display: block
-            }
-            .row {
-            position: relative
-            }
-            .row:before, .row:after {
-            content: ' ';
-            display: table
-            }
-            .row:after {
-            clear: both
-            }
-            .title {
-            padding-left: .5em
-            }
-            .title .required-mark {
-            font-weight: bold;
-            font-size: .8em;
-            position: relative;
-            top: -0.3em;
-            color: red
-            }
-            .title .required-mark:before {
-            content: '\2A '
-            }
-            .col-4 {
-            position: relative;
-            min-height: 1px;
-            padding-left: 6px;
-            padding-right: 6px;
-            float: left;
-            width: 33.33333%
-            }
-            .margin-bottom-lg {
-            margin-bottom: 24px
-            }
-            .margin-top-md {
-            margin-top: 12px
-            }
-            .text-center {
-            text-align: center
-            }
-            .featured-links .link-box button {
-                background-color: Transparent;
-                border: none;
-                cursor:pointer;
-                overflow: hidden;
-                outline:none;
-                display: table-cell;
-                padding: 1em;
-                vertical-align: middle;
-                width: 100%;
-                height: inherit;
-                color: #FFF;
-                text-decoration: none;
-                text-align: center;
-                font-size: 1.4em;
-                font-weight: 700;
-                font-style: italic;
-                word-wrap: break-word;
-            }
-            .featured-links .link-box button:hover {
-            background: rgba(0, 0, 0, 0.2);
-            }
-            /* Popup container - can be anything you want */
-            .popup {
-                position: relative;
-                cursor: pointer;
-                -webkit-user-select: none;
-                -moz-user-select: none;
-                -ms-user-select: none;
-                user-select: none;
-            }
-
-            /* The actual popup */
-            .popuptext {
-                width: 100%;
-                background-color: #ddd;
-                color: #000;
-                text-align: center;
-                border-radius: 6px;
-                padding: 8px;
-                position: absolute;
-                z-index: 1;
-                top: -210px;
-                left: 35%;
-                margin-left: -110px;
-            }
-
-            /* Popup arrow */
-            .popuptext::after {
-                content: "";
-                position: absolute;
-                top: 100%;
-                left: 50%;
-                margin-left: -5px;
-                border-width: 5px;
-                border-style: solid;
-                border-color: #ddd transparent transparent transparent;
-            }
-
-            /* Add animation (fade in the popup) */
-            @-webkit-keyframes fadeIn {
-                from {opacity: 0;} 
-                to {opacity: 0.5;}
-            }
-
-            @keyframes fadeIn {
-                from {opacity: 0;}
-                to {opacity:0.5 ;}
-            }
-        </style>
-        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <meta http-equiv="Content-Type" value="text/html; charset=utf-8">
-    </head>
-    <body dir="ltr" marginwidth="0" marginheight="0">
-        <div id="view">
-            <div data-reactroot="" class="featured-links">
-                <h1 class="title margin-top-md margin-bottom-lg" style="text-align: center;">Menu</h1>
-                <div class="row">
-                    <div class="col-4 link-box" style="background: url(&quot;img/red_mitten_vanilla.jpg"&quot;) center center rgb(0, 188, 206);">
-                        <button onclick="showPopUp('gfwPopUp');" onblur="hidePopUp('gfwPopUp')">Red Mitten Vanilla</button>
-                        <div class="popup">
-                            <p class="popuptext" id="gfwPopUp" style="display: none; margin-left: -70px;">A deliciously chocolate cake with a hint of strawberry                
-                            <br /><span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('gfwPopUp');">Close</span></p>
-                        </div>
-                    </div>
-                    <div class="col-4 link-box" style="background: url(&quot;img/neapolitan.jpg"&quot;) center center rgb(0, 188, 206);">
-                        <button onclick="showPopUp('ccPopUp');" onblur="hidePopUp('ccPopUp')">Neopolitan</button>
-                        <div class="popup">
-                            <p class="popuptext" id="ccPopUp" style="display: none; top: -220px;">A colourfull mix of flavours including, banana, chocolate, strawberry and blueberry<br                         
-                            <br /><span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('ccPopUp');">Close</span></p>
-                        </div>
-                    </div>
-                    <div class="col-4 link-box" style="background: url(&quot;img/mint_cookies.jpg"&quot;) center center rgb(0, 188, 206);">
-                        <button onclick="showPopUp('ffpPopUp');" onblur="hidePopUp('ffpPopUp')">Mint Cookie Cupcake</button>
-                        <div class="popup">
-                            <p class="popuptext" id="ffpPopUp" style="display: none;">With a fresh minty flavor and your fave cookie dough this is a firm fave.<br 
-                            <br /><span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('ffpPopUp');">Close</span></p>
-                        </div>
-                    </div>
-                    <div class="col-4 link-box" style="background: url(&quot;img/choc_banana.jpg&quot;) center center rgb(0, 188, 206);">
-                        <button onclick="showPopUp('pwpwPopUp');" onblur="hidePopUp('pwpwPopUp')">Choco Banana Whirl</button>
-                        <div class="popup">
-                            <p class="popuptext" id="pwpwPopUp" style="display: none; top: -180px; margin-left: -70px;">Love Banana, love chocolate? This one is for you.<a 
-                            <br /><span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('pwpwPopUp');">Close</span></p>
-                        </div>
-                    </div>
-                    <div class="col-4 link-box" style="background: url(&quot;img/lemon.jpg&quot;) center center rgb(0, 188, 206);">
-                        <button onclick="showPopUp('htbacPopUp');" onblur="hidePopUp('htbacPopUp')">Lemon Drizzle Cupcake</button>
-                        <div class="popup">
-                            <p class="popuptext" id="htbacPopUp" style="display: none;">Who like lemon? We do! Get involved.
-                            <br /><span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('htbacPopUp');">Close</span></p>
-                        </div>
-                    </div>
-                    <div class="col-4 link-box" style="background: url(&quot;img/choco_peanut.jpg&quot;) center center rgb(0, 188, 206);">
-                        <button onclick="showPopUp('caPopUp');" onblur="hidePopUp('caPopUp')">Chocolate Peanut Crunch</button>
-                        <div class="popup">
-                            <p class="popuptext" id="caPopUp" style="display: none; top: -180px;">It's peanut butter jelly time! Yeah!.<br />More information can be found   
-                            <br /><span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('caPopUp');">Close</span></p>
-                        </div>
-                    </div>
-                    <div class="col-4 link-box" style="background: url(&quot;https://thoughtworks.jiveon.com/servlet/JiveServlet/previewBody/40873-102-1-89648/Turquesa.png&quot;) center center rgb(0, 188, 206);">
-                        <button onclick="showPopUp('swiPopUp');" onblur="hidePopUp('swiPopUp')">cake</button>
-                        <div class="popup">
-                            <p class="popuptext" id="swiPopUp" style="display: none; margin-left: -70px;">yum
-<br />More information can be found                
-                            <br /><span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('swiPopUp');">Close</span></p>
-                        </div>
-                    </div>
-                 <div class="col-4 link-box" style="background: url(&quot;img/choco_peanut.jpg&quot;) center center rgb(0, 188, 206);">
-                        <button onclick="showPopUp('maPopUp');" onblur="hidePopUp('caPopUp')">Chocolate Peanut Crunch</button>
-                        <div class="popup">
-                            <p class="popuptext" id="maPopUp" style="display: none; top: -180px;">It's peanut butter jelly time! Yeah!.<br />More information can be found   
-                            <br /><span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('maPopUp');">Close</span></p>
-                        </div>
-                    </div>
- <div class="col-4 link-box" style="background: url(&quot;img/choco_peanut.jpg&quot;) center center rgb(0, 188, 206);">
-                        <button onclick="showPopUp('haPopUp');" onblur="hidePopUp('caPopUp')">Berry Bonanza</button>
-                        <div class="popup">
-                            <p class="popuptext" id="haPopUp" style="display: none; top: -180px;">It's peanut butter jelly time! Yeah!.<br />More information can be found   
-                            <br /><span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('haPopUp');">Close</span></p>
-                        </div>
-                    </div>
-                    </div>
+       
+    <div class="row">
+        <div class="box">
+            <div class="col-lg-12">
+                <h1 class="top">
+                    Menu
+                    <hr class="visible-xs">
+                </h1>
             </div>
         </div>
-        <script>
-            function clickLink() {
-                linkClicked = true;
-            }
-            function showPopUp(textToShowId){
-                linkClicked = false;
-                if($('#'+textToShowId).css('display') == 'none') {
-                    $("#"+textToShowId).css('display','block');
-                }
-                else {
-                    hidePopUp(textToShowId);
-                }
-            }
-            function hidePopUp(textToHideId) {
-                setTimeout(function() {
-                    if(linkClicked != false) {
-                        linkClicked = false;
-                    }
-                    $("#"+textToHideId).css('display','none');
-                }, 200);
-            }
-        </script>
-    </body>
-</html>
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">
-                        <strong>Pies</strong>
-                    </h2>
-                    <hr>
-                   <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
-                    <hr class="visible-xs">
+    </div>
+           
+    <br>                
+   <div class="row">
+        <div class="box">
+            <div class="col-lg-12">
+                <hr>
+                <h2 class="intro-text text-center">
+                        <strong>Cupcakes</strong>
+                </h2>
+                <hr>
+                <hr class="visible-xs">
+            </div>
+        </div>
+    </div>
 
-                     <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
-                    <hr class="visible-xs">
+    <dir="ltr" marginwidth="0" marginheight="0">
+    <div id="view">
+        <div data-reactroot="" class="featured-links">
+            <h1 class="title margin-top-md margin-bottom-lg cupcakes" style="text-align: center;"></h1>
+            <div class="row">
+                <div class="col-4 link-box" style="background: url(&quot;img/egg.jpg"&quot;) center center rgb(0, 188, 206);">
+                    <button onclick="showPopUp('gfwPopUp');" onblur="hidePopUp('gfwPopUp')">Red Mitten Vanilla</button>
+                    <div class="popup">
+                        <p class="popuptext" id="gfwPopUp" style="display: none; margin-left: -70px;">A deliciously chocolate cake with a hint of strawberry                
+                        <br />
+                        <span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('gfwPopUp');">Close</span>
+                        </p>
+                    </div>
+                </div>
 
-                     <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
-                    <hr class="visible-xs">
+                <div class="col-4 link-box" style="background: url(&quot;img/choco_mint.jpg"&quot;) center center rgb(0, 188, 206);">
+                        <button onclick="showPopUp('ccPopUp');" onblur="hidePopUp('ccPopUp')">Neopolitan</button>
+                    <div class="popup">
+                        <p class="popuptext" id="ccPopUp" style="display: none; top: -220px;">A colourfull mix of flavours including, banana, chocolate, strawberry and blueberry                         
+                        <br />
+                        <span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('ccPopUp');">Close</span>
+                        </p>
+                    </div>
+                </div>
 
-                     <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
-                    <hr class="visible-xs">
+                <div class="col-4 link-box" style="background: url(&quot;img/vegan.jpg"&quot;) center center rgb(0, 188, 206);">
+                        <button onclick="showPopUp('ffpPopUp');" onblur="hidePopUp('ffpPopUp')">Chocolate Mint Cupcake</button>
+                    <div class="popup">
+                        <p class="popuptext" id="ffpPopUp" style="display: none;">With a fresh minty flavor and your fave cookie dough this is a firm fave.<br/>
+                        <span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('ffpPopUp');">Close</span>
+                        </p>
+                    </div>
+                </div>   
 
-                     <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
-                    <hr class="visible-xs">
+                <div class="col-4 link-box" style="background: url(&quot;img/double_choc.jpg&quot;) center center rgb(0, 188, 206);">
+                        <button onclick="showPopUp('pwpwPopUp');" onblur="hidePopUp('pwpwPopUp')">Choco Banana Whirl</button>
+                    <div class="popup">
+                        <p class="popuptext" id="pwpwPopUp" style="display: none; top: -180px; margin-left: -70px;">Love Banana, love chocolate? This one is for you.
+                        <br /><span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('pwpwPopUp');">Close</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-4 link-box" style="background: url(&quot;img/lemon.jpg&quot;) center center rgb(0, 188, 206);">
+                    <button onclick="showPopUp('htbacPopUp');" onblur="hidePopUp('htbacPopUp')">Lemon Drizzle Cupcake</button>
+                    <div class="popup">
+                        <p class="popuptext" id="htbacPopUp" style="display: none;">Who like lemon? We do! Get involved.
+                        <br /><span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('htbacPopUp');">Close</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-4 link-box" style="background: url(&quot;img/sundae.jpg&quot;) center center rgb(0, 188, 206);">
+                        <button onclick="showPopUp('caPopUp');" onblur="hidePopUp('caPopUp')">Chocolate Peanut Crunch</button>
+                <div class="popup">
+                        <p class="popuptext" id="caPopUp" style="display: none; top: -180px;">It's peanut butter jelly time! Yeah!.<br />More information can be found   
+                        <br /><span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('caPopUp');">Close</span>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
+   <br>                
+   <div class="row">
+        <div class="box">
+            <div class="col-lg-12">
+                <hr>
+                <h2 class="intro-text text-center">
+                        <strong>Pies</strong>
+                </h2>
+                <hr>
+                <hr class="visible-xs">
+            </div>
+        </div>
+    </div>
+
+    <dir="ltr" marginwidth="0" marginheight="0">
+    <div id="view">
+        <div data-reactroot="" class="featured-links">
+            <h1 class="title margin-top-md margin-bottom-lg" style="text-align: center;"></h1>
+            <div class="row">
+                <div class="col-4 link-box" style="background: url(&quot;img/apple_pie.jpg"&quot;) center center rgb(0, 188, 206);">
+                    <button onclick="showPopUp('aoPopUp');" onblur="hidePopUp('aoPopUp')">Apple Pie</button>
+                    <div class="popup">
+                        <p class="popuptext" id="aoPopUp" style="display: none; margin-left: -70px;">A deliciously chocolate cake with a hint of strawberry                
+                        <br />
+                        <span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('aoPopUp');">Close</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-4 link-box" style="background: url(&quot;img/mud_pie.jpg"&quot;) center center rgb(0, 188, 206);">
+                        <button onclick="showPopUp('boPopUp');" onblur="hidePopUp('boPopUp')">Mississippi Mud Pie</button>
+                    <div class="popup">
+                        <p class="popuptext" id="boPopUp" style="display: none; top: -220px;">A colourfull mix of flavours including, banana, chocolate, strawberry and blueberry                         
+                        <br />
+                        <span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('boPopUp');">Close</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-4 link-box" style="background: url(&quot;img/pumpkin_pie.jpg"&quot;) center center rgb(0, 188, 206);">
+                        <button onclick="showPopUp('coPopUp');" onblur="hidePopUp('coPopUp')">Pumpkin Pie</button>
+                    <div class="popup">
+                        <p class="popuptext" id="coPopUp" style="display: none;">With a fresh minty flavor and your fave cookie dough this is a firm fave.<br/>
+                        <span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('coPopUp');">Close</span>
+                        </p>
+                    </div>
+                </div>   
+
+                <div class="col-4 link-box" style="background: url(&quot;img/key_lime.jpg&quot;) center center rgb(0, 188, 206);">
+                        <button onclick="showPopUp('doPopUp');" onblur="hidePopUp('doPopUp')">Key Lime Pie</button>
+                    <div class="popup">
+                        <p class="popuptext" id="doPopUp" style="display: none; top: -180px; margin-left: -70px;">Love Banana, love chocolate? This one is for you.
+                        <br /><span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('doPopUp');">Close</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-4 link-box" style="background: url(&quot;img/lemon_pie.jpg&quot;) center center rgb(0, 188, 206);">
+                    <button onclick="showPopUp('eoPopUp');" onblur="hidePopUp('eoPopUp')">Lemon Meringue Pie</button>
+                    <div class="popup">
+                        <p class="popuptext" id="eoPopUp" style="display: none;">Who like lemon? We do! Get involved.
+                        <br /><span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('eoPopUp');">Close</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-4 link-box" style="background: url(&quot;img/pecan_pie.jpg&quot;) center center rgb(0, 188, 206);">
+                        <button onclick="showPopUp('foPopUp');" onblur="hidePopUp('foPopUp')">Pecan Pie</button>
+                <div class="popup">
+                        <p class="popuptext" id="foPopUp" style="display: none; top: -180px;">It's peanut butter jelly time! Yeah!.<br />More information can be found   
+                        <br /><span style="font-size: 12px; text-decoration: underline;" onclick="hidePopUp('foPopUp');">Close</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="box">
+            <div class="col-lg-12">
                     <a href="https://twitter.com/"> <img class="img-responsive img-centre" src="img/twitter.png" alt="">
                     <hr class="visible-xs">
                     </a>
@@ -399,6 +280,32 @@
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     })
+    </script>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <meta http-equiv="Content-Type" value="text/html; charset=utf-8">
+
+    <script>
+            function clickLink() {
+                linkClicked = true;
+            }
+            function showPopUp(textToShowId){
+                linkClicked = false;
+                if($('#'+textToShowId).css('display') == 'none') {
+                    $("#"+textToShowId).css('display','block');
+                }
+                else {
+                    hidePopUp(textToShowId);
+                }
+            }
+            function hidePopUp(textToHideId) {
+                setTimeout(function() {
+                    if(linkClicked != false) {
+                        linkClicked = false;
+                    }
+                    $("#"+textToHideId).css('display','none');
+                }, 200);
+            }
     </script>
 
 </body>

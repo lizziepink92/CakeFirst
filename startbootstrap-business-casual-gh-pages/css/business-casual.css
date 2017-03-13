@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Business Casual (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 
 body {
     font-family: "OpenSans","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -19,7 +14,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Philosopher', sans-serif;
     font-weight: 900;
     letter-spacing: 1px;
 }
@@ -28,6 +23,7 @@ p {
     font-size: 1.25em;
     line-height: 1.6;
     color: #000;
+    font-family: 'Roboto', sans-serif;
 }
 
 hr {
@@ -68,6 +64,7 @@ hr {
 .brand-name {
     margin: 0;
     font-size: 4em;
+    font-family: 'Philosopher', sans-serif;
 }
 
 .tagline-divider {
@@ -113,7 +110,7 @@ footer p {
 }
 
 @media screen and (min-width:768px) {
-    .brand {
+.brand {
         display: inherit;
         margin: 0;
         padding: 30px 0 10px;
@@ -124,18 +121,19 @@ footer p {
         font-weight: 700;
         line-height: normal;
         color: #fff;
-    }
+}
 
-    .top-divider {
-        margin-top: 0;
-    }
+.top-divider {
+    margin-top: 0;
+}
 
-    .img-left {
-        float: left;
-        margin-right: 25px;
-    }
-    .img-centre {
-        float: none;
+.img-left {
+     float: left;
+    margin-right: 25px;
+}
+
+.img-centre {
+    float: none;
         margin-left: auto;
         margin-right: auto;
     }
@@ -145,12 +143,13 @@ footer p {
         margin: 0;
         padding: 0 0 40px;
         text-align: center;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0,0.5);
         text-transform: uppercase;
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
         color: #fff;
+        font-family: 'Roboto', sans-serif;
     }
 
     .navbar {
@@ -185,6 +184,7 @@ footer p {
         margin: 0 auto;
         table-layout: fixed;
         font-size: 1.25em;
+        font-family: 'Roboto', sans-serif;
     }
 }
 
@@ -199,10 +199,11 @@ footer p {
 .brand h1 {
     font-size: 2.5em;
     font-weight: bold;
-   -webkit-text-stroke: 1px black;
+    font-family: 'Philosopher', sans-serif;
+   -webkit-text-stroke: 0.2px black;
    color: white;
    text-shadow:
-       3px 3px 0 #000,
+       1px 1px 0 #000,
      -1px -1px 0 #000,  
       1px -1px 0 #000,
       -1px 1px 0 #000,
@@ -211,15 +212,178 @@ footer p {
 .address-bar {
     font-size: 1.7em;
     font-weight: bold;
-    color: white;
-   -webkit-text-stroke: 1px black;
-   color: white;
-   text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+    color: black;
+   -webkit-text-stroke: 0.5px black;
 }
 
+.top {
+    margin: 0;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+}
 
+ .view-title {
+    font-size: 35px;
+    margin: 0.67em 0;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'open sans';
+            }
+.featured-links .col-4:last-of-type, .featured-links .col-4:first-of-type {
+    padding-left: 0;
+    padding-right: 0;
+            }
+.featured-links .col-4 {
+    padding: 0;
+    }
+.featured-links .link-box {
+    border: .5em white solid;
+    display: table;
+    height:  9em;
+    background-size: cover;
+    width: 33.33333%;
+}
+
+.link-box {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color:blue;
+}
+
+.cupcakes {
+    font-size: 35px;
+    line-height: 1.5em;
+    font-weight: 200;
+    color: #4a4a4a
+    font-family: 'open sans'; 
+}
+div {
+    display: block
+}
+            
+.row {
+    position: relative
+}
+
+.row:before, .row:after {
+            content: ' ';
+            display: table
+}
+.row:after {
+    clear: both
+}
+
+.title {
+    padding-left: .5em
+}
+
+.title .required-mark {
+    font-weight: bold;
+    font-size: .8em;
+    position: relative;
+    top: -0.3em;
+    color: red
+}
+.title .required-mark:before {
+    content: '\2A '
+}
+
+.col-4 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+    float: left;
+    width: 33.33333%
+}
+
+.margin-bottom-lg {
+    margin-bottom: 24px
+}
+
+.margin-top-md {
+    margin-top: 12px
+}
+
+.text-center {
+    text-align: center
+}
+
+.featured-links .link-box button {
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    display: table-cell;
+    padding: 1em;
+    vertical-align: middle;
+    width: 100%;
+    height: inherit;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 700;
+    font-style: italic;
+    word-wrap: break-word;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.featured-links .link-box button:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popuptext {
+    width: 100%;
+    background-color: #ddd;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    top: -210px;
+    left: 35%;
+    margin-left: -110px;
+}
+
+/* Popup arrow */
+.popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ddd transparent transparent transparent;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 0.5;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:0.5 ;}
+}
